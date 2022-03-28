@@ -3,6 +3,24 @@
 > This template should be used for database related projects at Microverse.
 > Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
 
+## Optimization
+After adding many millions of data in database it started to slow down and we decided to optimize it using indexing.
+
+# screenshots
+- before
+![screenshot](img/first.PNG)
+- after
+![screenshot](img/first%20optimizer.PNG)
+
+- before
+![screenshot](img/second.PNG)
+- after
+![screenshot](img/second%20optimizer.PNG)
+
+- before
+![screenshot](img/third.PNG)
+- after
+![screenshot](img/third%20optimier.PNG)
 
 ## Getting Started
 
@@ -22,8 +40,12 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - LinkedIn: [mugishasamuel](https://www.linkedin.com/in/mugisha-samuel-55a905208/)
 
 
+👤 **Dejan Vujovic**
 
-
+- Github : [@VuDej](https://github.com/VuDej)
+- Twitter: [@DejanVuj](https://twitter.com/DejanVuj)
+- LinkedIn : [@Dejan-Vujovic](https://www.linkedin.com/in/dejan-vujovic-5a0672225/)
+  
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

@@ -30,4 +30,9 @@ ON DELETE CASCADE;
 		FOREIGN KEY (animal_id) REFERENCES animals(id) ON DELETE RESTRICT ON UPDATE CASCADE,
         FOREIGN KEY (vet_id) REFERENCES vets(id) ON DELETE RESTRICT ON UPDATE CASCADE
 	);
-    
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+CREATE INDEX animal_index ON visits (animal_id ASC)
+CREATE INDEX vets_index ON visits (vet_id ASC)
+CREATE INDEX owner_email ON owners (email ASC)
+
+
