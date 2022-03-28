@@ -33,3 +33,6 @@ specializations.vets_id=visits.vet_id join animals on animals.id=visits.animal_i
 group by vets.name 
 select species.name as speciality,sum(visits.animal_id) from visits join animals on animals.id=visits.animal_id join specializations on animals.species_id=
 specializations.specie_id join species on species.id=specializations.specie_id join vets on vets.id=visits.vet_id where vets.name='Maisy Smith' group by speciality order by speciality limit 1
+explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
+ explain analyze SELECT * FROM visits where vet_id = 2;
+ explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
